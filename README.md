@@ -30,3 +30,4 @@ Now, anyone can access this Redis server using your EC2 IP address and port `637
 ```
 redis-cli -h <your-ec2-ip-address> -p 6379
 ```
+Also, please ensure that port 6379 is whitelisted in your inbound security group rules (AWS EC2 firewall).
